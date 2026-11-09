@@ -1,5 +1,5 @@
 /* Elo 8 — funciona sem internet depois da primeira abertura */
-const CACHE = 'elo8-v8-online';
+const CACHE = 'elo8-v9-online';
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
