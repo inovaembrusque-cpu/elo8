@@ -12,7 +12,7 @@
  * Publicação: Implantar → Nova implantação → App da Web →
  *             Executar como: Eu · Quem pode acessar: Qualquer pessoa.
  */
-const CONVIDADO = 'gestao@inovaembrusque.com.br';
+const CONVIDADO = 'centrodeinovacaobrusque@unifebe.edu.br';
 const PIN_PADRAO = '1234';
 const FUSO = 'America/Sao_Paulo';
 const COLECOES = ['usuarios', 'funcoes', 'feriados', 'atividades', 'tarefas', 'agenda', 'config'];
